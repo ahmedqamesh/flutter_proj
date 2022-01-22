@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SignUpScreen extends StatelessWidget {
-  const SignUpScreen({Key? key}) : super(key: key);
+class LoginScreen extends StatelessWidget {
+  const LoginScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -9,7 +9,7 @@ class SignUpScreen extends StatelessWidget {
       appBar: AppBar(),
       body: Center(
         child: Text(
-          "Login Screen",
+          "LoginScreen",
           style: TextStyle(fontSize: 30),
         ),
       ),
